@@ -16,6 +16,9 @@ var correctCount = 0;
 var currentQuestionTimeLeft = allowTimePerQuestion;
 var scoreList = [];
 
+var correctWav = document.getElementById("correctAudio"); 
+var incorrectWav = document.getElementById("incorrectAudio"); 
+
 // Init function to load Score result from localStorage
 function init(){
     scoreList = JSON.parse(localStorage.getItem("GameScoreResult"));
@@ -83,6 +86,7 @@ function answerCorrect(){
     // var audio = new Audio("./assets/sfx/correct.wav");
     // audio.play();
     // Set value and display result
+    correctWav.play();
     currentQuestionTimeLeft = 0;
     correctCount++;
     displayResult(true);
@@ -92,6 +96,7 @@ function answerIncorrect(){
     // Print incorrect sound
     // var audio = new Audio("./assets/sfx/incorrect.wav");
     // audio.play();
+    incorrectWav.play();
     secondsLeft = secondsLeft - reduceTimeWhenWrong;
     // Set value and display result
     currentQuestionTimeLeft = 0;
