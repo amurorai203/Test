@@ -80,8 +80,8 @@ function displayResult(result){
 
 function answerCorrect(){
     // Print correct sound
-    var audio = new Audio("./assets/sfx/correct.wav");
-    audio.play();
+    // var audio = new Audio("./assets/sfx/correct.wav");
+    // audio.play();
     // Set value and display result
     currentQuestionTimeLeft = 0;
     correctCount++;
@@ -90,8 +90,8 @@ function answerCorrect(){
 
 function answerIncorrect(){
     // Print incorrect sound
-    var audio = new Audio("./assets/sfx/incorrect.wav");
-    audio.play();
+    // var audio = new Audio("./assets/sfx/incorrect.wav");
+    // audio.play();
     secondsLeft = secondsLeft - reduceTimeWhenWrong;
     // Set value and display result
     currentQuestionTimeLeft = 0;
