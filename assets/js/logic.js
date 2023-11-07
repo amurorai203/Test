@@ -86,7 +86,7 @@ function answerCorrect(){
     // var audio = new Audio("./assets/sfx/correct.wav");
     // audio.play();
     // Set value and display result
-    correctWav.play();
+    // correctWav.play();
     currentQuestionTimeLeft = 0;
     correctCount++;
     displayResult(true);
@@ -96,7 +96,7 @@ function answerIncorrect(){
     // Print incorrect sound
     // var audio = new Audio("./assets/sfx/incorrect.wav");
     // audio.play();
-    incorrectWav.play();
+    // incorrectWav.play();
     secondsLeft = secondsLeft - reduceTimeWhenWrong;
     // Set value and display result
     currentQuestionTimeLeft = 0;
