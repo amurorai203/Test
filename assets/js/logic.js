@@ -15,9 +15,10 @@ var wrongCount = 0;
 var correctCount = 0;
 var currentQuestionTimeLeft = allowTimePerQuestion;
 var scoreList = [];
+var audio = new Audio();
 
-var correctWav = document.getElementById("correctAudio"); 
-var incorrectWav = document.getElementById("incorrectAudio"); 
+// var correctWav = document.getElementById("correctAudio"); 
+// var incorrectWav = document.getElementById("incorrectAudio"); 
 
 // Init function to load Score result from localStorage
 function init(){
@@ -84,7 +85,8 @@ function displayResult(result){
 function answerCorrect(){
     // Print correct sound
     // var audio = new Audio("./assets/sfx/correct.wav");
-    // audio.play();
+    audio.src = "./assets/sfx/correct.wav";
+    audio.play();
     // Set value and display result
     // correctWav.play();
     currentQuestionTimeLeft = 0;
@@ -95,7 +97,8 @@ function answerCorrect(){
 function answerIncorrect(){
     // Print incorrect sound
     // var audio = new Audio("./assets/sfx/incorrect.wav");
-    // audio.play();
+    audio.src = "./assets/sfx/incorrect.wav";
+    audio.play();
     // incorrectWav.play();
     secondsLeft = secondsLeft - reduceTimeWhenWrong;
     // Set value and display result
