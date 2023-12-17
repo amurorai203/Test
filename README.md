@@ -1,8 +1,8 @@
-# Test
+# README generator
 
 # Description
 
-Generate README file using javascript
+Generate README.md file based on inquirer module and user questions and answers
 
 Table of Contents
 
@@ -18,34 +18,45 @@ Table of Contents
 
 *[Questions](#questions)
 
-<a name= "#installation"></a>
-##Installation
+
+
+<a name= "installation"></a>
+## Installation
 
 inquirer
 
-<a name= "#usage"></a>
-##Usage
 
-nonee
 
-<a name= "#license"></a>
-##License
+<a name= "usage"></a>
+## Usage
 
-MIT
+node index.js
 
-<a name= "#contributing"></a>
-##Contributing
 
-df
 
-<a name= "#tests"></a>
-##Tests
+<a name= "contributing"></a>
+## Contributing
 
-sf
+By all means are welcome. You may contact author i=under Questions section
 
-<a name= "#questions"></a>
-##Questions
 
-afdf@gdfg.com
-adsfa@gsdg.com
+
+<a name= "tests"></a>
+## Tests
+
+N/A
+
+
+
+<a name= "questions"></a>
+## Questions
+
+README generator was originally written by laihochi@gmail.com. You can reach him at amurorai203 on Github.
+
+
+<a name= "license"></a>
+## License
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
