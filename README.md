@@ -1,8 +1,8 @@
-# ABC
+# test run
 
 # Description
 
-A test of what is to be done and xyx and see what is the result of the jury from England. Rule of testing and call for the escape of euro. It is time to renew your policy.
+a boy is a cat. Elminate and skip. Those without the notebook will use desktop, just use Microsoft and OPenAI. Word and excel; access and project.
 
 ## Table of Contents
 
@@ -23,43 +23,43 @@ A test of what is to be done and xyx and see what is the result of the jury from
 <a name= "installation"></a>
 ## Installation
 
+inquirer, Github
+Kwok Fung Yee
 
-
-
-
+  
+  
 <a name= "usage"></a>
 ## Usage
 
-enter everything in questions and answers.
-then use inquirer module to build the README.me
+node index
 
-
-
+  
+  
 <a name= "contributing"></a>
 ## Contributing
 
-Everything is welcome.
-1) Financial
-2) Join force to develop the application thru sending email
+All kind of contributing is welcome.
+Financial
+Time
 
-
-
+  
+  
 <a name= "tests"></a>
 ## Tests
 
 N/A
 
-
-
+  
+  
 <a name= "questions"></a>
 ## Questions
 
-ABC was originally written by laihochi@gmail.com. You can reach him at amurorai203 on Github.
-
-
+test run was originally written by laihochi@gmail.com. You can reach him at amurorai on Github.
+  
+  
 <a name= "license"></a>
 ## License
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+None
 
-
+  
