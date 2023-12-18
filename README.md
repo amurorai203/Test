@@ -1,10 +1,10 @@
-# README generator
+# ABC
 
 # Description
 
-Generate README.md file based on inquirer module and user questions and answers
+A test of what is to be done and xyx and see what is the result of the jury from England. Rule of testing and call for the escape of euro. It is time to renew your policy.
 
-Table of Contents
+## Table of Contents
 
 *[Installation](#installation)
 
@@ -23,21 +23,24 @@ Table of Contents
 <a name= "installation"></a>
 ## Installation
 
-inquirer
+
 
 
 
 <a name= "usage"></a>
 ## Usage
 
-node index.js
+enter everything in questions and answers.
+then use inquirer module to build the README.me
 
 
 
 <a name= "contributing"></a>
 ## Contributing
 
-By all means are welcome. You may contact author i=under Questions section
+Everything is welcome.
+1) Financial
+2) Join force to develop the application thru sending email
 
 
 
@@ -51,12 +54,12 @@ N/A
 <a name= "questions"></a>
 ## Questions
 
-README generator was originally written by laihochi@gmail.com. You can reach him at amurorai203 on Github.
+ABC was originally written by laihochi@gmail.com. You can reach him at amurorai203 on Github.
 
 
 <a name= "license"></a>
 ## License
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
